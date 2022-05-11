@@ -16,7 +16,6 @@
 --    the Mouse 4 Button (Back). The script will automatically continue moving items untill Mouse 4 is pressed again.
 --    Suggest the side receiving items is set to vehicle filter, and that the filters are either visible or hidden on both windows
 -- ------------------------------------------------------------------------------------------
--- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 -- ------------------------------------------------------------------------------------------
 --  FEATURE #2 - Sell at Terminal - Mouse Button 5 (Forward)
 -- ------------------------------------------------------------------------------------------
@@ -31,7 +30,6 @@
 --    the macro is unable to scroll so if you have more than 6 items showing on the sell screen that you do not want to sell 
 --    you will need to move them to another inventory before using this macro
 -- ------------------------------------------------------------------------------------------
--- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 -- ------------------------------------------------------------------------------------------
 --   USER VARIABLES
 -- ------------------------------------------------------------------------------------------
