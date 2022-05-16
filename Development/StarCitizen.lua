@@ -292,7 +292,7 @@ function OnEvent(event, arg, family)
                 loopCount = loopCount + 1
             until (not loopedMove and loopMove) or IsModifierPressd("Shft")
             stopRunning = GetRunningTime - startRunning
-            print('Moved %d items in %d', loopCount, stopRunning)
+            print('Attempted to Move '..tostring(loopCount)..' items in '..stopRunning)
         end
     end
     if event == "MOUSE_BUTTON_RELEASED" and mouse_button == 4 then -- "backward" (X1) mouse button
@@ -333,7 +333,7 @@ function OnEvent(event, arg, family)
             until (not loopedSell and loopSell) or IsModifierPressd("Shft")
             clickCount = 0
             stopRunning = GetRunningTime - startRunning
-            print('Sold %d items in %d', loopCount, stopRunning)
+            print('Attempted to sell '..tostring(loopCount)..' items in '..stopRunning)
         end
     end
     if event == "MOUSE_BUTTON_RELEASED" and mouse_button == 5 then -- "forward" (X2) mouse button
